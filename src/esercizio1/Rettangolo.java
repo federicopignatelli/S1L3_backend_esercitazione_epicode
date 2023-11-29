@@ -17,5 +17,4 @@ public int Area (){
     return base*height;
 }
 
-
 }

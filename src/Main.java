@@ -6,6 +6,8 @@ public class Main {
     public static void main(String[] args) {
         Rettangolo rett1 = new Rettangolo(20, 30);
         Rettangolo rett2 = new Rettangolo(150, 65);
+
+        stampaDueRettangolo(rett1, rett2);
     }
 
     public static void stampaRettangolo(Rettangolo rettangolo){
@@ -17,9 +19,6 @@ public class Main {
         stampaRettangolo(rett1);
         stampaRettangolo(rett2);
         System.out.println("somma area due rettangolo: " + rett1.Area() + rett2.Area());
-        System.out.println("somma perimetro due rettangoli: " + rett1.Area() + rett2.Area());
-
-
-
+        System.out.println("somma perimetro due rettangoli: " + rett1.Perimeter() + rett2.Perimeter());
     }
 }
